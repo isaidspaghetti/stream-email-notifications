@@ -1,0 +1,90 @@
+.container {
+  padding: 20px 20px 20px 20px;
+}
+
+.stream-app {
+  height: 30px;
+  border-radius: 4;
+  margin: 10px;
+  box-shadow: "0px 0px 4px rgba(0,0,0,0.15)";
+  display: "flex";
+  align-items: "center";
+  justify-content: "space-between";
+  flex-direction: "row";
+  color: #ffffff;
+}
+
+.label-font {
+  color: #ffffff;
+  margin: 20px;
+}
+
+.app-title {
+  color: #cdf7f6;
+  text-align: center;
+}
+
+.notification {
+  padding-left: 10px;
+  padding-top: 5px;
+  border-bottom: 0.5px solid;
+}
+
+.icon-wide {
+  height: 40px;
+  width: 50px;
+  padding: 0px 5px 0px 10px;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  padding: 0px 5px 0px 10px;
+}
+
+.notification-header {
+  display: flex;
+  align-items: center;
+}
+.notification-content {
+  margin: 12px;
+  font-style: italic;
+  text-overflow: elipsis;
+}
+
+.actor {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 1px;
+  outline: none;
+  margin-right: 100px;
+  padding: 0px;
+  overflow: hidden;
+  unicode-bidi: isolate;
+  text-decoration: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+}
+.youtube {
+  color: #ff0000;
+}
+.twitter {
+  color: #1da1f2;
+}
+.email {
+  color: #5171a5;
+}
+
+.abstract {
+  font-size: small;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #6fedb7;
+  height: 60px;
+}
+
+.recipient {
+  font-size: small;
+  color: #000000;
+}
