@@ -53,7 +53,7 @@ First thing's first: set up a [free SendGrid account](https://signup.sendgrid.co
 
 Next, we'll authenticate your domain with SendGrid.
 
-1. From your [SendGrid Dashboard](https://app.sendgrid.com/), in the left pane, select 'Settings' and ['Sender Authentication](https://app.sendgrid.com/settings/sender_auth).
+1. From your [SendGrid Dashboard](https://app.sendgrid.com/), in the left pane, select 'Settings' and ['Sender Authentication'](https://app.sendgrid.com/settings/sender_auth).
 
 ![sender-auth](./images/sender-auth.png)
 
@@ -89,7 +89,7 @@ Next, we'll authenticate your domain with SendGrid.
 
 [Check here](https://sendgrid.com/docs/ui/account-and-settings/troubleshooting-sender-authentication/) for more help with these steps.
 
-Great, now let's set up a DNS host with an MX record, needed for the Inbound Parse Webhook.
+Great, now let's set up an MX record, needed for the Inbound Parse Webhook.
 
 ## Add DNS MX Record
 
@@ -472,7 +472,7 @@ Finally, we will use the properties we added to each activity in the backend to 
 
 You can use this snippet as a template to customize your own rendering.
 
-<!-- https://gist.github.com/isaidspaghetti/7bb70ca823c18fa09a9d1054c505cf5d -->
+<!-- https://gist.github.com/isaidspaghetti/6c25a6c63ecd4d10106808412762932b -->
 
 ```html
 //frontend/src/Notification.js
